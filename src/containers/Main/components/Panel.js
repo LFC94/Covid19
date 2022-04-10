@@ -30,12 +30,9 @@ function Panel({ onChange, data, country, getCovidData }) {
         <div>
           <Typography variant="h5" component="span" color="primary">
             COVID19
-          </Typography>
-          <Typography variant="h65" component="span" color="primary">
+          </Typography>{" "}
+          <Typography variant="h6" component="span" color="primary">
             Painel Corona virus
-          </Typography>
-          <Typography variant="body2" component="span" color="primary">
-            COVID19
           </Typography>
           <div className="pt-2">
             <Select onChange={onChange} value={country}>

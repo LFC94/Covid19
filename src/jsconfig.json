@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "baseUrl": "src",
     "jsx": "react",
     "paths": {
-      "components/*": ["src/components/*"],
-      "containers/*": ["src/containers/*"],
-      "assets/*": ["src/assets/*"],
-      "common/*": ["src/common/*"]
+      "components/*": ["./components/*"],
+      "containers/*": ["./containers/*"],
+      "assets/*": ["./assets/*"],
+      "resources/*": ["./resources/*"],
+      "commons/*": ["./commons/*"]
     }
-  }
+  },
+  "exclude": ["node_modules", "build"]
 }
